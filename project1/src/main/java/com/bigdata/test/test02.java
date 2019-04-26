@@ -133,10 +133,6 @@ public class test02 {
 					Customer c=new Customer(text[0].getText(), text[1].getText(), text[2].getText(), Integer.parseInt(text[3].getText()));
 					for(int i=0;i<4;i++)text[i].setText("");
 					button.get(next).setText(c.toString());
-					button.get(next).setName(text[0].getText());
-					button.get(next).setSex(text[1].getText());
-					button.get(next).setEmail(text[2].getText());
-					if(!text[3].getText().equals(""))button.get(next).setBirth(Integer.parseInt(text[3].getText()));
 					next++;
 				}
 			});
@@ -164,10 +160,6 @@ public class test02 {
 				text[i]=new JTextField(5);
 				add(text[i]);
 			}
-			text[0].setText(button.get(index).getName());
-			text[1].setText(button.get(index).getSex());
-			text[2].setText(button.get(index).getEmail());
-			text[3].setText(button.get(index).getBirth()+"");
 			JButton b=new JButton("수정");
 			b.addActionListener(new ActionListener() {
 				
@@ -188,10 +180,8 @@ public class test02 {
 		private String sex;
 		private String email;
 		private int birth;
-		Customer()
-		{
-			
-		}
+		Customer(){}
+		
 		Customer(String a1,String a2,String a3,int a4)
 		{
 			name=a1;
@@ -202,30 +192,6 @@ public class test02 {
 		@Override
 		public String toString() {
 			return "Customer [name=" + name + ", sex=" + sex + ", email=" + email + ", birth=" + birth + "]";
-		}
-		public String getName() {
-			return name;
-		}
-		public void setName(String name) {
-			this.name = name;
-		}
-		public String getSex() {
-			return sex;
-		}
-		public void setSex(String sex) {
-			this.sex = sex;
-		}
-		public String getEmail() {
-			return email;
-		}
-		public void setEmail(String email) {
-			this.email = email;
-		}
-		public int getBirth() {
-			return birth;
-		}
-		public void setBirth(int birth) {
-			this.birth = birth;
 		}
 	}
 }
