@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63BD62ED-C041-EE69-65DE-86614F81BFAD" name="dept">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:23:07 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>dept</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="deptno" id="6C7D8A67-0937-BE13-D18B-3FF58257B3D5">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:24:05 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deptname" id="EA7FC69D-C4E6-DA89-33FD-8BBCC53CECEB">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:24:24 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deptloc" id="E7D8E640-5F05-A844-5985-0FF39E7BE303">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:24:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66E332E9-2672-C766-44F3-337EC42B968C" name="dept_PK">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:24:05 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C7D8A67-0937-BE13-D18B-3FF58257B3D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

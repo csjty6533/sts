@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="emp" directorySegmentName="seg_0" id="EA5C7068-AEEF-9087-3892-58470D9F3834">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="empmail" id="4D20E151-9251-74C9-4776-E5A2DC546D6B">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="empno" id="85481A37-AAC5-4C61-7C48-25F4F01E27BE">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dept_deptno" id="C341C56E-A35B-0F5D-AED0-901135E9BCAC">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="epmname" id="C9E7ECB7-1E82-86FA-F8B2-6FCD8E0A2066">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="emp_dept_FK" id="85E05075-4598-80D8-0F1A-15F3DDD5A384">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="emp_PK" id="3AB376F7-F072-FCE0-57EA-ED3D59830973">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

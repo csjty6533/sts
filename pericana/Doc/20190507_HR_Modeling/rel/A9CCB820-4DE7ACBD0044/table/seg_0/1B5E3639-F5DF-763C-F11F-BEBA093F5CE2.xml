@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B5E3639-F5DF-763C-F11F-BEBA093F5CE2" schemaObject="0AFDCA19-A019-4D1B-5F03-A303CEEB84DF" name="REGIONS">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>REGIONS</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>F56AA37F-4435-AA9D-6513-365C531E881E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGION_ID" id="68298F80-0DAD-D509-0EDA-A8D2D2B46BB7">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>REGIONS</sourceObjSchema>
+<sourceObjName>REGION_ID</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>20819AD0-E36A-E5D8-377B-608FF2D131C9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>REGION_ID_NN</notNullConstraintName>
+</Column>
+<Column name="REGION_NAME" id="4423FE40-983E-399A-26DB-E2C76AF4D7BE">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>REGIONS</sourceObjSchema>
+<sourceObjName>REGION_NAME</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>3E3157B6-ADC7-DBD5-C72F-B5F48982F3CB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B975060-BF15-930E-45B5-461CAC882E85" name="REG_ID_PK">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>REG_ID_PK</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>C5E6BDC5-1A75-0977-9119-19742FD29A16</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68298F80-0DAD-D509-0EDA-A8D2D2B46BB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EBC8D68-CECF-6BB0-7DB5-DDA0A96A5268" schemaObject="0AFDCA19-A019-4D1B-5F03-A303CEEB84DF" name="REG_ID_PK">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>REG_ID_PK</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>80910FF9-8F29-0224-C1F7-32D41B6913FA</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68298F80-0DAD-D509-0EDA-A8D2D2B46BB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

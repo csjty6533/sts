@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MGR_HISTORY" directorySegmentName="seg_0" id="B547E8C5-56E6-104A-2AF1-FB3C9BEE2601">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<schemaObject>0AFDCA19-A019-4D1B-5F03-A303CEEB84DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BE4C3E4D-F48C-034B-5F33-D35A74D812E2</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMPID" id="98E17672-78A6-A3FB-C471-3DF768541EF5">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MGR" id="C042F2D9-D15C-5CB4-5B04-4945CC62BD66">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SAL" id="DFD53853-5DDA-C481-4F2B-EF50E0E6E310">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

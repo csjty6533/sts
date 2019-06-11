@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="REGIONS" directorySegmentName="seg_0" id="1B5E3639-F5DF-763C-F11F-BEBA093F5CE2">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<schemaObject>0AFDCA19-A019-4D1B-5F03-A303CEEB84DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BE4C3E4D-F48C-034B-5F33-D35A74D812E2</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_NAME" id="4423FE40-983E-399A-26DB-E2C76AF4D7BE">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_ID" id="68298F80-0DAD-D509-0EDA-A8D2D2B46BB7">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="8EBC8D68-CECF-6BB0-7DB5-DDA0A96A5268">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<schemaObject>0AFDCA19-A019-4D1B-5F03-A303CEEB84DF</schemaObject>
+<segment>8E9D4927-5BE4-446C-BCD0-4DC403EDAED3</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="5B975060-BF15-930E-45B5-461CAC882E85">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<segment>8E9D4927-5BE4-446C-BCD0-4DC403EDAED3</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+<existingIndex>8EBC8D68-CECF-6BB0-7DB5-DDA0A96A5268</existingIndex>
+<indexSegment>8E9D4927-5BE4-446C-BCD0-4DC403EDAED3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0516996-196E-6F90-F2C0-1C3E59CCEDAF" schemaObject="0AFDCA19-A019-4D1B-5F03-A303CEEB84DF" name="LOCATIONS">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LOCATIONS</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<commentInRDBMS>Locations table that contains specific address of a specific office,&lt;br/&gt;warehouse, and/or production site of a company. Does not store addresses /&lt;br/&gt;locations of customers. Contains 23 rows; references with the&lt;br/&gt;departments and countries tables. </commentInRDBMS>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>1D0E6B64-2123-C654-CD37-3EF5F45AF404</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION_ID" id="BAD845CA-60CD-2041-BAF0-696C4B19CF4B">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>LOCATION_ID</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<commentInRDBMS>Primary key of locations table</commentInRDBMS>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>22F92FE8-6AE9-E804-73BF-53BFB843F055</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_ADDRESS" id="92AD531A-1722-0F13-3F72-99BDB8119062">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>STREET_ADDRESS</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<commentInRDBMS>Street address of an office, warehouse, or production site of a company.&lt;br/&gt;Contains building number and street name</commentInRDBMS>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>F86BC894-D773-AAB0-03C9-2D03706EE215</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTAL_CODE" id="B890FBC5-F43F-FAF6-92BF-262683C0A06C">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>POSTAL_CODE</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<commentInRDBMS>Postal code of the location of an office, warehouse, or production site&lt;br/&gt;of a company. </commentInRDBMS>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>253F0925-ED95-DAE7-11FE-3C0705076D08</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="2224585A-D41A-A112-D433-F1711EB78BA4">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<commentInRDBMS>A not null column that shows city where an office, warehouse, or&lt;br/&gt;production site of a company is located. </commentInRDBMS>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>89687F8B-30F6-406C-3258-1A0B68D0589B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>LOC_CITY_NN</notNullConstraintName>
+</Column>
+<Column name="STATE_PROVINCE" id="2CFEC119-2EF0-D5DE-7CA3-70F9819CD374">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>STATE_PROVINCE</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<commentInRDBMS>State or Province where an office, warehouse, or production site of a&lt;br/&gt;company is located.</commentInRDBMS>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>CE772DC6-14D3-F5C4-F1B7-4F9AEBF77D0A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY_ID" id="61452B65-258B-F27B-201B-12709696B5F7">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>LOCATIONS</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<commentInRDBMS>Country where an office, warehouse, or production site of a company is&lt;br/&gt;located. Foreign key to country_id column of the countries table.</commentInRDBMS>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>BDD8A95E-32D1-ED3F-2A29-F00D94D1E447</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="569D2925-4026-38DB-A915-8B1E083BA88D" referredColumn="61C203AA-E52E-48ED-FB3E-E70D8C29AB91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A03719C-7430-F878-FF9B-EE960C3899A5" name="LOC_ID_PK">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LOC_ID_PK</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>3ED07F8F-6272-AD3C-7ADB-F0392BA4EA8F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAD845CA-60CD-2041-BAF0-696C4B19CF4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83B312CB-309D-00E3-B154-6FE7E1E682C6" schemaObject="0AFDCA19-A019-4D1B-5F03-A303CEEB84DF" name="LOC_CITY_IX">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LOC_CITY_IX</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>F1FB41CF-6DE0-4C3B-E39D-DE1AD6B1F5EC</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2224585A-D41A-A112-D433-F1711EB78BA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96A9AAF0-1682-A355-7593-0DDF18ADB725" schemaObject="0AFDCA19-A019-4D1B-5F03-A303CEEB84DF" name="LOC_COUNTRY_IX">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LOC_COUNTRY_IX</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>DB8370FE-25F6-D4D7-CACF-87D7D757ED8C</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61452B65-258B-F27B-201B-12709696B5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D06401A-4E7A-FC1D-49AA-03451701AF18" schemaObject="0AFDCA19-A019-4D1B-5F03-A303CEEB84DF" name="LOC_ID_PK">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LOC_ID_PK</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>42FB3F11-AF41-6AA8-1380-464040B80EBA</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAD845CA-60CD-2041-BAF0-696C4B19CF4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D45E7B7-C42F-FDB0-16FD-A438F3A7970F" schemaObject="0AFDCA19-A019-4D1B-5F03-A303CEEB84DF" name="LOC_STATE_PROVINCE_IX">
+<sourceConnName>localhost-hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LOC_STATE_PROVINCE_IX</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<importedID>DB5AF981-B1F2-168E-1646-863320DE6D6F</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CFEC119-2EF0-D5DE-7CA3-70F9819CD374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4379D629-3BEC-5E88-4A2A-EE2222E3F8AA" name="LOC_C_ID_FK">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61452B65-258B-F27B-201B-12709696B5F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

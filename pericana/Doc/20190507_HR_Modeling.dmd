@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="20190507_HR_Modeling" id="55B7674B-1999-D2BE-04CA-D35BB279B757" version="3.5">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:01:35 UTC</createdTime>
+<ownerDesignName>20190430_사원정보모델링</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>55B7674B-1999-D2BE-04CA-D35BB279B757</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="937F01D5-F8FC-77A6-D9BF-A3F7CA790DEC">
+<designStoragePath>C:\Users\it</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

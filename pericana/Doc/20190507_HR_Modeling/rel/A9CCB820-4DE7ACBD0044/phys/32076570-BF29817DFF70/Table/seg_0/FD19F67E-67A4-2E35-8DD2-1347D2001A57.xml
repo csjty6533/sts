@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPARTMENTS" directorySegmentName="seg_0" id="FD19F67E-67A4-2E35-8DD2-1347D2001A57">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<schemaObject>0AFDCA19-A019-4D1B-5F03-A303CEEB84DF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BE4C3E4D-F48C-034B-5F33-D35A74D812E2</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPARTMENT_NAME" id="26BBBA59-2E16-DE3E-DD54-F847A201F70F">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCATION_ID" id="34B26D38-B732-62DD-C69C-49D0A4650366">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="3BEF1E89-370C-E8B1-05A4-085CCD8CD9E7">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="620ACF94-EDE1-201D-EE11-363FC49CFDC6">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPT_ID_PK" id="133AAFBF-2FD2-9C25-B659-30073AEAE1F7">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<schemaObject>0AFDCA19-A019-4D1B-5F03-A303CEEB84DF</schemaObject>
+<segment>8E9D4927-5BE4-446C-BCD0-4DC403EDAED3</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPT_LOCATION_IX" id="B5F60C14-C54F-C6C0-32F2-D32D780CD7D3">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<schemaObject>0AFDCA19-A019-4D1B-5F03-A303CEEB84DF</schemaObject>
+<segment>8E9D4927-5BE4-446C-BCD0-4DC403EDAED3</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPT_MGR_FK" id="0173476A-1092-B26A-8631-50C13E273BA1">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPT_LOC_FK" id="66CAE281-266E-D14E-B424-7B937F1DB67F">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPT_ID_PK" id="71F540E8-A2E7-E950-F926-267D8B21AB9A">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:57:49 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<segment>8E9D4927-5BE4-446C-BCD0-4DC403EDAED3</segment>
+<tableSpace>C944A7A5-9FDC-5D62-16CD-B50B6E7D09AE</tableSpace>
+<existingIndex>133AAFBF-2FD2-9C25-B659-30073AEAE1F7</existingIndex>
+<indexSegment>8E9D4927-5BE4-446C-BCD0-4DC403EDAED3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

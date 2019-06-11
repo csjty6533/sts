@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="dept" directorySegmentName="seg_0" id="63BD62ED-C041-EE69-65DE-86614F81BFAD">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="deptno" id="6C7D8A67-0937-BE13-D18B-3FF58257B3D5">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="deptloc" id="E7D8E640-5F05-A844-5985-0FF39E7BE303">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="deptname" id="EA7FC69D-C4E6-DA89-33FD-8BBCC53CECEB">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="dept_PK" id="66E332E9-2672-C766-44F3-337EC42B968C">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:48:09 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

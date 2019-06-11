@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA5C7068-AEEF-9087-3892-58470D9F3834" name="emp">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:17:50 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>emp</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="empno" id="85481A37-AAC5-4C61-7C48-25F4F01E27BE">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:19:18 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="epmname" id="C9E7ECB7-1E82-86FA-F8B2-6FCD8E0A2066">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:19:36 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empmail" id="4D20E151-9251-74C9-4776-E5A2DC546D6B">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:20:10 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dept_deptno" id="C341C56E-A35B-0F5D-AED0-901135E9BCAC">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:26:40 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB4F66C4-6537-E3FB-88EC-F412A1718F24" referredColumn="6C7D8A67-0937-BE13-D18B-3FF58257B3D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AB376F7-F072-FCE0-57EA-ED3D59830973" name="emp_PK">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:19:18 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85481A37-AAC5-4C61-7C48-25F4F01E27BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85E05075-4598-80D8-0F1A-15F3DDD5A384" name="emp_dept_FK">
+<createdBy>it</createdBy>
+<createdTime>2019-04-30 06:26:40 UTC</createdTime>
+<ownerDesignName>20190507_HR_Modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C341C56E-A35B-0F5D-AED0-901135E9BCAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
